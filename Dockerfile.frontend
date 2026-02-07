@@ -1,4 +1,4 @@
-FROM nginx:1.25.3-alpine-slim
+FROM nginx:1.29.5-alpine-slim
 
 # Create directory for serving files
 RUN mkdir -p /usr/share/nginx/html \
